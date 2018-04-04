@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_s3ve3gjv.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_s3ve3gjv-user \
+    lineage_s3ve3gjv-userdebug \
+    lineage_s3ve3gjv-eng
