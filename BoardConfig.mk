@@ -19,10 +19,6 @@ include device/samsung/s3ve3g-common/BoardConfigCommon.mk
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_s3ve3gjv_defconfig
 
-# Init
-TARGET_INIT_VENDOR_LIB := libinit_msm8226
-TARGET_LIBINIT_MSM8226_DEFINES_FILE := device/samsung/s3ve3gjv/init/init_s3ve3g.cpp
-
 # NFC
 # include $(COMMON_PATH)/nfc/pn547/board.mk
 
