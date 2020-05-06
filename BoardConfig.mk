@@ -16,11 +16,13 @@
 # inherit from common s3ve3g
 include device/samsung/s3ve3g-common/BoardConfigCommon.mk
 
+DEVICE_PATH := device/samsung/s3ve3gjv
+
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_s3ve3gjv_defconfig
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_s3ve3g
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_s3ve3g
 
 # NFC
 # include $(COMMON_PATH)/nfc/pn547/board.mk
