@@ -14,7 +14,6 @@ vendor/lib/libmmcamera2_imglib_modules.so|b965b187eee18b241474cc0257e2352f26c748
 vendor/lib/libmmcamera2_isp_modules.so|f23bc7e54336375b0cbcda8e66a0146779fa9937
 vendor/lib/libmmcamera2_sensor_modules.so|cffd7b905fbb7faa1507a5916d72f213b13eb1b7
 vendor/lib/libmmcamera2_stats_modules.so|77cb73b4e890b3956f8a6b5add9a4b545041abe9
-vendor/lib/libmmcamera_imx175.so|0bd21a0f983f5ef35b60c0735ad6b32adde0d8a7
 vendor/lib/liboemcamera.so|fd4d66850813bea498b052294a76467d6c5b6e26
 
 # Back Camera chromatix - Pinned to Samsung sensor specific files 
